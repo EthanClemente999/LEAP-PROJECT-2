@@ -1,0 +1,23 @@
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 10px; /* Optional: add padding to the container */
+}
+
+.footer-box {
+    min-width: 400px;
+    max-width: 450px; /* Max width of each box */
+    min-height: 300px; /* Ensures minimum height */
+    border: 5px solid black;
+    border-radius: 20px;
+    box-shadow: 8px 8px grey;
+}
+
+.Footer-text {
+    display: block; /* Ensure each item appears on a new line */
+    padding: auto;
+    margin-top: 12px;
+    text-align: center; 
+}

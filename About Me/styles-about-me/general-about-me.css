@@ -1,0 +1,7 @@
+body {
+    height: 10000px;
+    background-color: beige;
+    transition: 0.8s;
+    color: black;
+    font-family: Arial, Roboto;
+}   
