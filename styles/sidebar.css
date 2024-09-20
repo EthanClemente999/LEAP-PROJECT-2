@@ -23,7 +23,7 @@
 }
 
 .sidebar-link:hover {
-    background-color: rgba(122, 121, 121, 0.3);
+    background-color: lightgrey;
 }
 
 .sidebar-link img {
@@ -55,7 +55,7 @@
 }
 
 .sidebar-link-thumbnail:hover {
-    background-color: rgba(122, 121, 121, 0.3);
+    background-color: lightgrey;
 }
 
 .sidebar-text {
