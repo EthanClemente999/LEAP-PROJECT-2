@@ -32,6 +32,18 @@ body {
     text-align: center;
 }
 
+.quote-container-middle {
+    border: 5px solid black;
+    min-width: 1380px;
+    max-width: 0;
+    padding-top: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+    padding-left: 100px;
+    justify-content: center;
+    text-align: center;
+}
+
 
 .first-statement {
     border: 5px solid lightseagreen;
