@@ -1,7 +1,70 @@
 body {
     height: 10000px;
+    padding-top: 90px;
     background-color: beige;
     transition: 0.8s;
     color: black;
-    font-family: Arial, Roboto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }   
+
+.logo-name {
+    padding-left: 10px;
+}
+.information-box {
+    border: 7px solid lightgrey;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.information-box h1, h4, p, dt, dd {
+    padding-left: 20px;
+    margin: 3px;
+}
+
+.description-list {
+    border: 5px solid black;
+}
+
+.albums {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+}
+
+.albums-container p {
+    font-size: 19px;
+}
+
+.album-picture-container-savage-1 {
+    border: 7px solid red;
+    width: 430px;
+    padding: 10px;
+    text-align: center;
+}
+
+.album-picture-container-keshi {
+    border: 7px solid black;
+    width: 400px;
+    padding: 10px;
+    text-align: center;
+}
+
+.album-picture-container-savage-2 {
+    border: 7px solid lightblue;
+    width: 400px;
+    padding: 10px;
+    text-align: center;
+}
+
+.album-picture-container-joji {
+    border: 7px solid cyan;
+    width: 400px;
+    padding: 10px;
+    text-align: center;
+}
+
+.album-picture {
+    width: 256px;
+    height: 256px;
+}
