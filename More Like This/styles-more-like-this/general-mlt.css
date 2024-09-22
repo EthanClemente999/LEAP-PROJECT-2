@@ -1,0 +1,12 @@
+body {
+    height: 10000px;
+    padding-top: 90px;
+    background-color: beige;
+    transition: 0.8s;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}  
+
+.logo-name {
+    padding-left: 10px;
+}
