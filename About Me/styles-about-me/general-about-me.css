@@ -5,7 +5,12 @@ body {
     transition: 0.8s;
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}   
+}  
+
+mark {
+    background-color: red;
+    color: yellow;
+}
 
 .logo-name {
     padding-left: 10px;
@@ -16,19 +21,21 @@ body {
     padding: 15px;
 }
 
-.information-box h1, h4, p, dt, dd {
+.information-box h1, h2, h3, h4, h5, p, dt, dd {
     padding-left: 20px;
     margin: 3px;
 }
 
 .description-list {
     border: 5px solid black;
+    width: 1830px;
 }
 
 .albums {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 15px;
     padding: 10px;
 }
 
@@ -39,28 +46,42 @@ body {
 .album-picture-container-savage-1 {
     border: 7px solid red;
     width: 430px;
-    padding: 10px;
+    padding-top: 7px;
     text-align: center;
 }
 
 .album-picture-container-keshi {
     border: 7px solid black;
     width: 400px;
-    padding: 10px;
+    padding-top: 7px;
     text-align: center;
 }
 
 .album-picture-container-savage-2 {
     border: 7px solid lightblue;
     width: 400px;
-    padding: 10px;
+    padding-top: 7px;
     text-align: center;
 }
 
 .album-picture-container-joji {
     border: 7px solid cyan;
     width: 400px;
-    padding: 10px;
+    padding-top: 7px;
+    text-align: center;
+}
+
+.album-picture-container-juice-wrld {
+    border: 7px solid darkblue;
+    width: 400px;
+    padding-top: 7px;
+    text-align: center;
+}
+
+.album-picture-container-one-direction {
+    border: 7px solid orange;
+    width: 400px;
+    padding-top: 7px;
     text-align: center;
 }
 
