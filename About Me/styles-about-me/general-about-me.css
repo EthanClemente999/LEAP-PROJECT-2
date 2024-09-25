@@ -26,6 +26,10 @@ mark {
     margin: 3px;
 }
 
+information-box dd {
+    font-size: 22px; 
+}
+
 .description-list {
     border: 5px solid black;
     width: 1830px;
