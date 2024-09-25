@@ -15,6 +15,46 @@ mark {
 .logo-name {
     padding-left: 10px;
 }
+
+.pic-container-1 {
+    float: right;
+    padding-right: 10px;
+}
+
+.pic-description-1 {
+    border: 5px solid black;
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    object-position: 50% 75%;
+}
+
+.pic-container-2 {
+    float: left;
+    padding-right: 10px;
+}
+
+.pic-description-2 {
+    border: 5px solid black;
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    object-position: 50% 20%;
+}
+
+.pic-container-3{
+    float: right;
+    padding-right: 10px;
+}
+
+.pic-description-3 {
+    border: 5px solid black;
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    object-position: 50% 30%;
+}
+
 .information-box {
     border: 7px solid lightgrey;
     border-radius: 10px;
@@ -27,7 +67,7 @@ mark {
 }
 
 information-box dd {
-    font-size: 22px; 
+    font-size: 26px; 
 }
 
 .description-list {
