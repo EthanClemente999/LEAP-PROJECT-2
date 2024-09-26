@@ -152,6 +152,12 @@
     width: 32px;
     height: 32px;
     object-fit: cover;
-    border-radius: 16px;
+    border: 3px solid black;
+    border-radius: 26px;
     object-position: middle;
+    transition: 0.7;
+}
+
+.current-user-picture:hover {
+    background-color: lightgrey;
 }
