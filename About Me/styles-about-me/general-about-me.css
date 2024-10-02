@@ -1,5 +1,5 @@
 body {
-    height: 10000px;
+    height: 2250px;
     padding-top: 90px;
     background-color: beige;
     transition: 0.8s;
@@ -42,7 +42,7 @@ mark {
     object-position: 50% 20%;
 }
 
-.pic-container-3{
+.pic-container-3 {
     float: right;
     padding-right: 10px;
 }
@@ -53,6 +53,10 @@ mark {
     height: 150px;
     object-fit: cover;
     object-position: 50% 30%;
+}
+
+.information-container {
+    width: 1900px;
 }
 
 .information-box {
@@ -167,4 +171,11 @@ mark {
 .album-picture {
     width: 256px;
     height: 256px;
+}
+
+::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+    background: #000;
+    display: none;
 }
